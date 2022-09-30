@@ -20,12 +20,11 @@ export default function Gallery({images}) {
     return (
       <ul className={styles.list}>
         {images.map((src, index) => (
-          <li className={styles.item}>
+          <li className={styles.item} key={ index }>
             <div className={styles.box}>
               <img className={styles.image}
                 src={ src }
                 onClick={ () => openImageViewer(index) }
-                key={ index }
                 alt="Spaceship from SpaceX"
               />
             </div>
