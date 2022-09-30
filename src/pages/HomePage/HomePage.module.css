@@ -1,15 +1,13 @@
-.container{
-    min-height: calc(100vh - 50px);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .title{
     font-weight: 500;
     font-size: 48px;
     text-align: center;
-    display: inline-block;
-    text-decoration: none;
     color: #2A363B;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.link{
+    color:#3c76d2;
+    text-decoration: none;
 }

@@ -1,8 +1,6 @@
 import styles from './Footer.module.css'
-import Container from 'components/Container/Container'
 
 export default function Footer() {
-
     return (
         <>
             <footer className={styles.footer}>
@@ -12,7 +10,7 @@ export default function Footer() {
                         <div className={styles.heart}></div>
                     </div>
                     <p className={styles.footer_info_about_me}>by</p>
-                    <a href="https://github.com/Cocokringle" className={styles.footer_link} data-team-open="">Cocokringle</a>
+                    <a href="https://github.com/Cocokringle" className={styles.footer_link}>Cocokringle</a>
                 </div>
             </footer>
         </>

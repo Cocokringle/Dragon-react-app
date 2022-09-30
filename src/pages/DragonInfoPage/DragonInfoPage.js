@@ -1,12 +1,12 @@
 import DragonInfo from "components/DragonInfo/DragonInfo";
+import Container from "components/Container/Container";
 
 export default function DragonsPage() {
-
     return (
         <>
-            <div>
+            <Container>
                 <DragonInfo></DragonInfo>
-            </div>
+            </Container>
         </>
     )
 }
