@@ -12,9 +12,9 @@
 ![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white)
 ![MUI](https://img.shields.io/badge/MUI-%230081CB.svg?style=for-the-badge&logo=mui&logoColor=white)
 
-###A backend is written for user authentication. Read more <a href="https://github.com/Cocokringle/dragon-react-app-backend">here</a>
+A backend is written for user authentication. Read more <a href="https://github.com/Cocokringle/dragon-react-app-backend">here</a>
 
-###<a href="https://github.com/r-spacex/SpaceX-API/blob/master/docs/dragons/v4/all.md">SpaceX-API</a> is used to display spacecraft information.
+<a href="https://github.com/r-spacex/SpaceX-API/blob/master/docs/dragons/v4/all.md">SpaceX-API</a> is used to display spacecraft information.
 
 
 
