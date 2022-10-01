@@ -2,6 +2,7 @@
 
 <h1 align="center">Dragon<h1>
 <p align="center">A web app that introduces you to SpaceX's Dragon spacecraft.<p>
+
 ##Technologies used:
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
