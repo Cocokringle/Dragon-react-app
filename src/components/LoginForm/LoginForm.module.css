@@ -1,5 +1,5 @@
 .form{
-    width: 320px;
+    min-width: 280px;
 }
 
 .label{
@@ -38,4 +38,6 @@
     justify-content: center;
     flex-direction: column;
     padding-top: 120px;
+    padding-left: 15px;
+    padding-right: 15px;
 }

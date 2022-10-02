@@ -38,7 +38,7 @@ export default function RegisterForm() {
 
     return (
         <div className={styles.container}>
-          <h1 className={styles.title}>Register an account</h1>
+          <h1 className={styles.title}>Registration</h1>
     
           <form  onSubmit={handleSubmit} className={styles.form} autoComplete="off">
             <label className={styles.label}>
