@@ -18,7 +18,7 @@
 ### <a href="https://github.com/r-spacex/SpaceX-API/blob/master/docs/dragons/v4/all.md">SpaceX-API</a> is used to display spacecraft information.
 
 ## Deploys
-The process of deploying the web application to the host automatically occurs after changes have been pushed to the main project branch.
+The production version of the project will be automatically built and deployed to Netlify every time the main branch is updated. For example, after a direct push or an accepted pool-request.
 
 Also, every time you want to upload a newer version of an application to the host, you can use the command:
 
