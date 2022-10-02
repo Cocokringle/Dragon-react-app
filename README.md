@@ -17,5 +17,14 @@
 
 ### <a href="https://github.com/r-spacex/SpaceX-API/blob/master/docs/dragons/v4/all.md">SpaceX-API</a> is used to display spacecraft information.
 
+## Deploys
+
+Also, every time you want to upload a newer version of an application to the host, you can use the command:
+
+```sh
+npm deploy
+```
+
+
 
 
