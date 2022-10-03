@@ -30,7 +30,7 @@ export default function LoginPage(){
 
     return (
         <div className={styles.container}>
-          <h1 className={styles.title}>Sign in to your account</h1>
+          <h1 className={styles.title}>Sign in</h1>
     
           <form onSubmit={handleSubmit} className={styles.form} autoComplete="off">
             <label className={styles.label}>

@@ -1,13 +1,28 @@
 const BASE_URL = 'https://api.spacexdata.com/v4'
 
-function fetchDragons() {
-    return fetch(`${BASE_URL}/dragons`).then(response => {
-        if (response.ok) {
-          return response.json();
-        }
+function fetchDragons(limit) {
+  const data = {
+    "query": {},
+    "options": {
+      "page": 1,
+      "limit": `${limit}`
+    }
+  }
 
-        return Promise.reject(new Error(`No dragons`));
-     })
+  return fetch(`${BASE_URL}/dragons/query`, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json;charset=utf-8'
+    },
+    body: JSON.stringify(data)
+  }).then(response => {
+    if (response.ok) {
+      return response.json();
+    }
+
+    return Promise.reject(new Error(`No dragons`));
+  });
+       
 }
 
 function fetchDragonById(dragonId) {

@@ -6,8 +6,8 @@ import AppBar from 'components/AppBar/AppBar';
 import Footer from "components/Footer/Footer"
 import authOperations from 'redux/auth/auth-operations';
 import { authSelectors } from 'redux/auth';
-import CircularProgress from '@mui/material/CircularProgress';
-import Box from '@mui/material/Box';
+import Loader from 'components/Loader/Loader';
+
 
 const HomePage = lazy(() => import('pages/HomePage/HomePage' /* webpackChunkName: "home-page"*/))
 const DragonsPage = lazy(() => import('pages/DragonsPage/DragonsPage' /* webpackChunkName: "dragons-page"*/))
@@ -27,18 +27,7 @@ export default function App() {
 
     return (
         isFetchingCurrentUser && (
-            <Suspense fallback={
-                <Box sx={{
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',top: 0,
-                    left: 0,
-                    bottom: 0,
-                    right: 0,
-                    position: 'absolute',
-                }}>
-                    <CircularProgress />
-                </Box>}>
+            <Suspense fallback={<Loader/>}>
 
             <Container fixed>
                 <AppBar/>
