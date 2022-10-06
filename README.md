@@ -40,3 +40,14 @@ Deployment status of the last commit is indicated by an icon:
 - [Failed] - Deployment failed
 
 ![](https://github.com/Cocokringle/dragon-react-app/blob/main/public/tempsnip.png)
+
+
+## Testing
+
+This application has been tested with the react-testing-library library.
+
+To run the tests, run the command:
+
+```sh
+npm test
+```
