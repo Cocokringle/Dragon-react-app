@@ -6,7 +6,7 @@ import { render, screen } from "@testing-library/react";
 import RegisterPage from "./RegisterPage"
 
 describe("RegisterPage", () => {
-    it("the page is rendered ", () => {
+    it("the page is rendered", () => {
         render(<Provider store={store}><RegisterPage /></Provider>);
         expect(screen.getByText(/Registration/i)).toBeInTheDocument();
     })
