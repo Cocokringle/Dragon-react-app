@@ -34,9 +34,10 @@ export default function DragonsList() {
             {dragons && dragons.length > 0 && (
                 <ul className={styles.list}>{dragons.map(dragon => {  
                     return <li key={dragon.id} className={styles.item}>
-                        <Link to={`${dragon.id}`} className={styles.link}>
+                        <Link to={`${dragon.id}`} className={styles.link} data-testid="link">
                             <div className={styles.box}>
                                 <img className={styles.image}
+                                    data-testid="image"
                                     src={dragon.flickr_images}
                                     alt={`Spaceship ${dragon.name}`}>
                                 </img>
@@ -52,6 +53,7 @@ export default function DragonsList() {
             {!isLoading && isVisible && (
                 <Box textAlign='center'>
                     <Button variant="contained"
+                        data-testid="button"
                         type='button'
                         onClick={loadMore}
                         sx={{ marginTop: '15px' }}>Load more

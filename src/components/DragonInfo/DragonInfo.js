@@ -34,7 +34,7 @@ export default function DragonInfo() {
                         <Gallery images={dragon.flickr_images}></Gallery>
                     </div>
 
-                    <div className={styles.box}>
+                    <div className={styles.box} data-testid="info">
                         <h2 className={styles.title}>{dragon.name}</h2>
                         <p className={styles.text}>{dragon.description}</p>
                         <h3 className={styles.list_title}>Parameters</h3>
