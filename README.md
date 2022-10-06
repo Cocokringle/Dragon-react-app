@@ -11,7 +11,6 @@
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white)
 ![MUI](https://img.shields.io/badge/MUI-%230081CB.svg?style=for-the-badge&logo=mui&logoColor=white)
-![React-Testing-Library](https://img.shields.io/badge/-TestingLibrary-%23E33332?style=for-the-badge&logo=testing-library&logoColor=white)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/cc004eb4-709f-48be-9185-767cec74ba77/deploy-status)](https://app.netlify.com/sites/resilient-pasca-9eea9e/deploys)
 
 ### A backend is written for user authentication. Read more <a href="https://github.com/Cocokringle/dragon-react-app-backend">here</a>
